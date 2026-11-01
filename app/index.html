@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nike Sneaker Catalog | AWS Learning Project</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f5f5f5;
+      color: #111;
+    }
+
+    header {
+      background: #111;
+      color: white;
+      padding: 40px 24px;
+      text-align: center;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 24px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .product {
+      background: white;
+      padding: 24px;
+      border-radius: 12px;
+    }
+
+    footer {
+      padding: 24px;
+      text-align: center;
+      color: #555;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nike Sneaker Catalog</h1>
+    <p>Explore everyday, running, and basketball styles.</p>
+  </header>
+
+  <main>
+    <h2>Featured sneakers</h2>
+
+    <section class="products" aria-label="Featured sneakers">
+      <article class="product">
+        <h3>Air Force 1</h3>
+        <p>Category: Lifestyle</p>
+        <p>Sample price: $115</p>
+      </article>
+
+      <article class="product">
+        <h3>Air Max 90</h3>
+        <p>Category: Lifestyle</p>
+        <p>Sample price: $130</p>
+      </article>
+
+      <article class="product">
+        <h3>Air Jordan 1</h3>
+        <p>Category: Basketball-inspired lifestyle</p>
+        <p>Sample price: $180</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    Unofficial educational AWS project. Not affiliated with Nike.
+    Prices are sample data; no purchases are available.
+  </footer>
+</body>
+</html>
